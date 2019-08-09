@@ -1,0 +1,4 @@
+Source: ros-dashing-rclcpp-components
+Version: 0.7.6
+Description: Package containing tools for dynamically loadable components
+Build-Depends:
