@@ -1,0 +1,4 @@
+Source: ros-dashing-rclcpp-lifecycle
+Version: 0.7.6
+Description: Package containing a prototype for lifecycle implementation
+Build-Depends:
