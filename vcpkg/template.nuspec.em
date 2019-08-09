@@ -1,19 +1,15 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ros-dashing-rclcpp-components</id>
-    <version>0.7.6</version>
-    <title>ros-dashing-rclcpp-components</title>
-    <authors>Michael Carroll</authors>
+    <id>@(Package)</id>
+    <version>@(Version)</version>
+    <title>@(Package)</title>
+    <authors>@(Authors)</authors>
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Package containing tools for dynamically loadable components</description>
+    <description>@(Description)</description>
     <dependencies>
-		<dependency id="ros-dashing-ament-index-cpp"/>
-		<dependency id="ros-dashing-class-loader"/>
-		<dependency id="ros-dashing-composition-interfaces"/>
-		<dependency id="ros-dashing-rclcpp"/>
-
+@[for d in Depends]@(d)@[end for]
     </dependencies>
   </metadata>
   <files>
